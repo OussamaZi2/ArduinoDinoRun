@@ -1,22 +1,33 @@
 {
-  "name": "electron-quick-start",
+  "name": "DinoRun",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "The T-Rex Runner game from chrome://dino packaged into an Electron app, thanks to wayou/t-rex-runner for game source code.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package:l": "electron-packager . --overwrite --platform=linux --arch=x64 --arch=ia32 --icon=icons/png/dinorun.png --out=build/packaged/build-linux/",
+    "package:w": "build -w --ia32 --x64",
+    "package:m": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/icon.icns --out=build/packaged/build-darwin/",
+    "installer:w": "node ./scripts/installers/winstaller.js",
+    "installer:m": "electron-installer-dmg ./build/packaged/build-darwin/DinoRun.app dinorun-macos-setup --out=./build/production/production-darwin/ --icon=./icons/icon.icns --overwrite",
+    "electron-toolkit": "./node_modules/.bin/electron ./node_modules/electron-toolkit"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/kiedtl/dinorun",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "dino",
+    "game",
+    "easter egg",
+    "electron",
+    "chrome",
+    "no internet"
   ],
   "author": "GitHub",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.0"
+    "electron": "^3.0.4",
+    "electron-builder": "^20.28.4",
+    "electron-packager": "^12.2.0",
+    "electron-toolkit": "^1.0.24",
+    "electron-winstaller": "^2.7.0"
   }
 }

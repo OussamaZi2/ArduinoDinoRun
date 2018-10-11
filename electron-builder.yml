@@ -1,0 +1,12 @@
+appId: dino.run.runrunrun
+electronVersion: 2.0.8
+directories:
+  output: "./build/packaged/build-win32"
+win:
+  target: 
+    - nsis
+    - portable
+    - msi
+    - zip
+    - tar.gz
+  icon: icons/icon.ico
