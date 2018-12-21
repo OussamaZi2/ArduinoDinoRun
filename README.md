@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
@@ -43,3 +44,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
+=======
+# DinoRun
+The T-Rex Runner game from chrome://dino packaged into an Electron app, thanks to wayou/t-rex-runner for game source code.
+>>>>>>> 455cbafcc5080652484b4122066d99c3970f7ce5
