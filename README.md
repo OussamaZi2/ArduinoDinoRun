@@ -19,3 +19,18 @@ Getting errors try with permission.
 ```sh
 $ sudo npm install
 ```
+
+# Arduino :
+
+Componenets :
+  - 1x Arduino Uno
+  - 1x Usb Cable
+  - 2x Servo
+  - At least 6x Pin Cables
+  - 1x Board (Optional)
+
+# Circuit
+
+Arduino Circuit : 
+![](Circuit.png)
+This snapshot designed by [Tinkercad](https://www.tinkercad.com/)
