@@ -2,7 +2,15 @@
 
 This repo is forked from [kiedtl/DinoRun](https://github.com/kiedtl/DinoRun) .
 
-# Getting Started !
+# How to setup !
+
+You need the following installed on your system to run this:
+
+ 1. [Node.js](https://nodejs.org/en/) (LTS OR Current) (I use version v13.5.0)
+ 2. npm (I use version v6.13.4)
+
+Then run the following commands in your terminal:
+
 
 ```sh
 $ git clone https://github.com/yousseffatihi/DinoRun.git
@@ -29,8 +37,10 @@ Componenets :
   - At least 6x Pin Cables
   - 1x Board (Optional)
 
-# Circuit
+# Snapshot
 
 Arduino Circuit : 
 ![](Circuit.png)
-This snapshot designed by [Tinkercad](https://www.tinkercad.com/)
+This snapshot designed by [Tinkercad](https://www.tinkercad.com/things/8aU1buNOmLk)
+
+# Arduino Code
