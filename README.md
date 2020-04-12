@@ -5,7 +5,7 @@ This repo is forked from [kiedtl/DinoRun](https://github.com/kiedtl/DinoRun) .
 # Getting Started !
 
 ```sh
-$ git clone ...
+$ git clone https://github.com/yousseffatihi/DinoRun.git
 $ cd DinoRun
 ```
 
@@ -15,7 +15,7 @@ $ cd DinoRun
 ```sh
 $ npm install
 ```
-With Permission 
+Getting errors try with permission.
 ```sh
 $ sudo npm install
 ```
