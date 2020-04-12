@@ -1,7 +1,18 @@
-# Arduino Dino Run
+# Introduction
 
-This repo is forked from [kiedtl/DinoRun](https://github.com/kiedtl/DinoRun) .
+First things first, **this repo is forked from [kiedtl/DinoRun](https://github.com/kiedtl/DinoRun) .**  
+this repo make the servos pressing the space key and down key on keyboard, by using : 
 
+ - [Johnny-five](https://github.com/rwaldron/johnny-five) Library to connect my Arduino with Node.js.
+ - [Socket.io](https://github.com/socketio/socket.io) Sending Instructions from [Electronjs](https://www.electronjs.org/) to Server.js.
+
+### Regards
+A huge thanks to [**Mostafa Fouad**](https://github.com/teefouad), by creating a wonderful article about [**making a T-rex Smart in Google Chrome**](https://medium.com/@TeeFouad/making-the-t-rex-smarter-ebf9aea0660f), also to  [**Kiëd Llaentenn**](https://github.com/kiedtl) for integrating the T-rex in Electronjs, also [**Socket.io Team**](https://github.com/socketio) and [**Rick Waldron
+ and his team**](https://github.com/rwaldron).
+
+ # Youtube Video
+ You can see my vlog about this repo in this link --> [Video](https://youtu.be/ZEcvsIrnE6o), I do not speak english in this video only Moroccan Language (Darija) the subtitles will be as soon as possible.
+ 
 # How to setup !
 
 You need the following installed on your system to run this:
