@@ -43,4 +43,10 @@ Arduino Circuit :
 ![](Circuit.png)
 This snapshot designed by [Tinkercad](https://www.tinkercad.com/things/8aU1buNOmLk)
 
-# Arduino Code
+# Arduino Source Code
+Steps :
+ 
+ 1. Go to Arduino Application -> Examples -> Firmata -> StandardFirmata
+ 2. Connect your Arduino
+ 3. Upload
+ 4. There's no 4th step 3:)
