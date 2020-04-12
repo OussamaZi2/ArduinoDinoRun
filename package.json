@@ -29,5 +29,9 @@
     "electron-packager": "^12.2.0",
     "electron-toolkit": "^1.0.24",
     "electron-winstaller": "^2.7.0"
+  },
+  "dependencies": {
+    "johnny-five": "^1.4.0",
+    "socket.io": "^2.3.0"
   }
 }
