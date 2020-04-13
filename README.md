@@ -39,6 +39,15 @@ Getting errors try with permission.
 $ sudo npm install
 ```
 
+# Start !
+```sh
+$ node server.js
+```
+then lunch the electron app by the following commands in your terminal .
+```sh
+$ npm start
+```
+
 # Arduino :
 
 Componenets :
