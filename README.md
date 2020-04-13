@@ -40,10 +40,11 @@ $ sudo npm install
 ```
 
 # Start !
+First run the following commands in your terminal :
 ```sh
 $ node server.js
 ```
-then lunch the electron app by the following commands in your terminal .
+Then lunch the electron app by the following commands in your terminal .
 ```sh
 $ npm start
 ```
