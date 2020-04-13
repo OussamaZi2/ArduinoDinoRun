@@ -24,8 +24,8 @@ Then run the following commands in your terminal:
 
 
 ```sh
-$ git clone https://github.com/yousseffatihi/DinoRun.git
-$ cd DinoRun
+$ git clone https://github.com/yousseffatihi/ArduinoDinoRun.git
+$ cd ArduinoDinoRun
 ```
 
 # Installation !
